@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог работ веб-студии Нёрдс</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a><img src="https://via.placeholder.com/150x100" alt="Логотип студии Нёрдс" width="150" height="100"></a>
+            <ul>
+                <li><a href="#">Студия</a></li>
+                <li><a href="#">Клиенты</a></li>
+                <li><a href="#">Магазин</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <a href="blank.html" target="_blank" rel="noopener noreferrer">Корзина</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Магазин готовых шаблонов</h1>
+        <section>
+            <h2>Фильтр</h2>
+            <form action="echo.htmlacademy.ru" method="get">
+                <fieldset>
+                    <legend>Стоимость:</legend>
+                    <input type="range" name="price" id="price-range" min="0" max="150000"><br>
+                    от <input type="text" name="min-price" id="min-price-field" placeholder="0"> до <input type="text"
+                        name="max-price" id="max-price-field" placeholder="150 000">
+                </fieldset>
+                <fieldset>
+                    <legend>Сетка:</legend>
+                    <input type="radio" name="type" id="type-field-1" value="adaptive"> Адаптивная<br>
+                    <input type="radio" name="type" id="type-field-2" value="fixed"> Фиксированная<br>
+                    <input type="radio" name="type" id="type-field-3" value="rubbered"> Резиновая
+                </fieldset>
+                <fieldset>
+                    <legend>Особенности:</legend>
+                    <input type="checkbox" name="feature-1" id="feature-field-1" value="slider"> Слайдер<br>
+                    <input type="checkbox" name="feature-2" id="feature-field-2" value="advantage-block"> Блок
+                    преимуществ<br>
+                    <input type="checkbox" name="feature-3" id="feature-field-3" value="news"> Новости<br>
+                    <input type="checkbox" name="feature-4" id="feature-field-4" value="gallery"> Галерея<br>
+                    <input type="checkbox" name="feature-5" id="feature-field-5" value="basket"> Корзина
+                </fieldset>
+                <button type="submit">Показать</button>
+            </form>
+        </section>
+        <section>
+            <h2>Наши работы</h2>
+            <div class="sorting">
+                <p>Сортировать:</p>
+                <ul>
+                    <li><a href="#">По цене</a></li>
+                    <li><a href="#">По типу</a></li>
+                    <li><a href="#">По названию</a></li>
+                </ul>
+                <img src="https://via.placeholder.com/150x100" alt="" width="10" height="10">
+                <img src="https://via.placeholder.com/150x100" alt="" width="10" height="10">
+            </div>
+            <div class="items">
+                <ul>
+                    <li><a href="#"><img src="https://via.placeholder.com/150x100" alt="Sedona" width="250"
+                                height="500"></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/150x100" alt="Pink App" width="250"
+                                height="500"></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/150x100" alt="Borodinski" width="250"
+                                height="500"></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/150x100" alt="Mishka " width="250"
+                                height="500"></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/150x100" alt="A Plus" width="250"
+                                height="500"></a></li>
+                    <li><a href="#"><img src="https://via.placeholder.com/150x100" alt="Kvast" width="250"
+                                height="500"></a></li>
+                </ul>
+            </div>
+            <div class="pagination">
+                <ul>
+                    <li><a>1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">Следующая</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h2>Адрес офиса</h2>
+            <!-- Интерактивная карта офиса -->
+            <img src="https://via.placeholder.com/150x100" alt="Адрес офиса Нёрдс" width="150" height="100">
+
+            <article>
+                <h3>Nerds Design Studio</h3>
+                <address>
+                    наб. Реки Карповки,<br>
+                    5 лит П, Санкт-Петербург
+                </address>
+                <a href="tel:+78005558628">+7 800 555-86-28</a>
+                <button type="button">Напишите нам</button>
+            </article>
+        </section>
+        <section>
+            <div class="socials">
+                <ul>
+                    <li><a href=""><img src="" alt=""></a></li>
+                    <li><a href=""><img src="" alt=""></a></li>
+                    <li><a href=""><img src="" alt=""></a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Давайте дружить, это выгодно!</p>
+                <p>Скидка 10% для друзей из социальных сетей</p>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
