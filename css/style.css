@@ -1,0 +1,314 @@
+/* Fonts */
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Variables */
+
+:root {
+    --basic-black: #000000;
+    --basic-quiet-red: #fb565a;
+    --basic-guidance-red: #e74246;
+    --basic-pressing-red: #d7373b;
+
+    --basic-quiet-green: #00CA74;
+    --basic-guidance-green: #00BC6C;
+    --basic-pressing-green: #00AA62;
+
+    --basic-quiet-yellow: #EFC849;
+    --basic-guidance-yellow: #EAB534;
+    --basic-pressing-yellow: #E5A722;
+
+    --basic-quiet-grey: #EEEEEE;
+    --basic-guidance-grey: #DFDFDF;
+    --basic-pressing-grey: #D5D5D5;
+
+    --basic-template-grey: #4D4D4D;
+    --basic-social-grey: #E1E1E1;
+
+    --form-quiet-grey: #D7DCDE;
+    --form-guidance-grey: #B4B9BB;
+    --form-pressing-grey: #000000;
+
+    --basic-font-size: 16px;
+    --basic-line-height: 24px;
+}
+
+/* Global */
+
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: var(--basic-font-size);
+    line-height: var(--basic-line-height);
+    font-weight: 400;
+    color: var(--basic-black);
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Main navigation */
+
+.main-nav {
+    font-size: var(--basic-font-size);
+    line-height: var(--basic-line-height);
+    color: var(--basic-black);
+    background-color: transparent;
+}
+
+.site-nav {
+    list-style: none;
+}
+
+.values {
+    background-color: var(--basic-quiet-grey);
+}
+
+.values .highlight {
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 37px;
+}
+
+.site-nav-current a:not([href]) {}
+
+/* User navigation */
+
+.site-nav a,
+.user-nav a {
+    color: var(--basic-black);
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.user-nav:hover a:hover,
+.user-nav:hover a:focus {
+    color: var(--basic-quiet-red);
+}
+
+/* Services */
+
+.services-list {
+    list-style: none;
+}
+
+.services-item a {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Columns */
+
+.about-columns {}
+
+.button {
+    font: inherit;
+    text-align: center;
+    color: var(--basic-quiet-grey);
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: var(--basic-template-grey);
+    border: none;
+}
+
+/* Red Button */
+
+.button-red {
+    background-color: var(--basic-quiet-red);
+}
+
+.button-red:hover,
+.button-red:focus {
+    background-color: var(--basic-guidance-red);
+}
+
+.button-red:active {
+    background-color: var(--basic-pressing-red);
+}
+
+/* Green Button */
+
+.button-green {
+    background-color: var(--basic-quiet-green);
+}
+
+.button-green:hover,
+.button-green:focus {
+    background-color: var(--basic-guidance-green);
+}
+
+.button-green:active {
+    background-color: var(--basic-pressing-green);
+}
+
+/* Yellow Button */
+
+.button-yellow {
+    background-color: var(--basic-quiet-yellow);
+}
+
+.button-yellow:hover,
+.button-yellow:focus {
+    background-color: var(--basic-guidance-yellow);
+}
+
+.button-yellow:active {
+    background-color: var(--basic-pressing-yellow);
+}
+
+/* Grey Button */
+
+.button-grey {
+    background-color: var(--basic-quiet-grey);
+}
+
+.button-grey:hover,
+.button-grey:focus {
+    background-color: var(--basic-guidance-grey);
+}
+
+.button-grey:active {
+    background-color: var(--basic-pressing-grey);
+}
+
+.button.disabled,
+.button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color: var(--basic-black);
+}
+
+.client-list,
+.advantages-list,
+.socials-list {
+    list-style: none;
+}
+
+/* Modal Form */
+
+.appointment-form input,
+.appointment-form textarea {
+    font: inherit;
+    background-color: transparent;
+    border: 2px solid var(--form-quiet-grey);
+}
+
+.appointment-form input:hover,
+.appointment-form textarea:hover {
+    font: inherit;
+    background-color: transparent;
+    border: 2px solid var(--form-guidance-grey);
+}
+
+.appointment-form input:focus,
+.appointment-form textarea:focus {
+    font: inherit;
+    background-color: transparent;
+    border: 2px solid var(--form-pressing-grey);
+}
+
+.appointment-form input.invalid {
+    font: inherit;
+    background-color: transparent;
+    border: 2px solid var(--basic-guidance-red);
+}
+
+/* Social Buttons */
+
+.socials-button {
+    color: inherit;
+}
+
+.socials-button:hover {
+    background-color: var(--basic-guidance-red);
+
+}
+
+.socials-button:focus {
+    background-color: var(--basic-pressing-red);
+}
+
+.socials-button:focus svg {
+    background-color: var(--basic-pressing-red);
+    opacity: 30%;
+}

@@ -4,14 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
     <title>Каталог работ веб-студии Нёрдс</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="index.html"><img src="https://via.placeholder.com/150x100" alt="Логотип студии Нёрдс" width="150"
-                    height="100"></a>
+            <a href="index.html"><img src="img/logo/nerds-logo.png" alt="Логотип студии Нёрдс" width="160"
+                    height="65"></a>
             <ul>
                 <li><a href="#">Студия</a></li>
                 <li><a href="#">Клиенты</a></li>
@@ -59,8 +72,10 @@
                     <li><a href="#">По типу</a></li>
                     <li><a href="#">По названию</a></li>
                 </ul>
-                <a href="#" title="По возрастанию"></a>
-                <a href="#" title="По убыванию"></a>
+                <a href="#" title="По возрастанию"><img src="img/svg/icon-down-dir.svg" alt="Сортировка по убыванию"
+                        width="10" height="10"></a>
+                <a href="#" title="По убыванию"><img src="img/svg/icon-up-dir.svg" alt="Сортировка по возрастанию"
+                        width="10" height="10"></a>
             </div>
             <div class="items">
                 <ul>
@@ -70,7 +85,8 @@
                             <p>Информационный сайт <br>для туристов</p>
                             <a href="#">9900 ₽</a>
                         </div>
-                        <img src="https://via.placeholder.com/150x100" alt="Sedona" width="250" height="500">
+                        <img src="img/browser.jpg" alt="Шляпа для шаблона" width="358" height="40">
+                        <img src="img/sedona/Mask Group.jpg" alt="Шаблон Sedona" width="358" height="578">
                     </li>
                     <li>
                         <div>
@@ -78,7 +94,8 @@
                             <p>Продуктовый лендинг <br>приложение для iOS и Android</p>
                             <a href="#">9900 ₽</a>
                         </div>
-                        <img src="https://via.placeholder.com/150x100" alt="Pink App" width="250" height="500">
+                        <img src="img/browser.jpg" alt="Шляпа для шаблона" width="358" height="40">
+                        <img src="img/pink-app/Mask Group.jpg" alt="Шаблон Pink App" width="358" height="578">
                     </li>
                     <li>
                         <div>
@@ -86,7 +103,8 @@
                             <p>Сайт салона красоты.<br>Для мужчин, да.</p>
                             <a href="#">9900 ₽</a>
                         </div>
-                        <img src="https://via.placeholder.com/150x100" alt="Barbershop" width="250" height="500">
+                        <img src="img/browser.jpg" alt="Шляпа для шаблона" width="358" height="40">
+                        <img src="img/barbershop/Mask Group.jpg" alt="Шаблон Barbershop" width="358" height="578">
                     </li>
                     <li>
                         <div>
@@ -94,7 +112,8 @@
                             <p>Интернет-магазин<br>вязанных игрушек</p>
                             <a href="#">9900 ₽</a>
                         </div>
-                        <img src="https://via.placeholder.com/150x100" alt="Mishka" width="250" height="500">
+                        <img src="img/browser.jpg" alt="Шляпа для шаблона" width="358" height="40">
+                        <img src="img/mishka/Mask Group.jpg" alt="Шаблон Mishka" width="358" height="578">
                     </li>
                     <li>
                         <div>
@@ -102,15 +121,17 @@
                             <p>Лендинг курсов повышения<br>квалификации</p>
                             <a href="#">9900 ₽</a>
                         </div>
-                        <img src="https://via.placeholder.com/150x100" alt="A Plus" width="250" height="500">
+                        <img src="img/browser.jpg" alt="Шляпа для шаблона" width="358" height="40">
+                        <img src="img/a-plus/Mask Group.jpg" alt="Шаблон A Plus" width="358" height="578">
                     </li>
                     <li>
                         <div>
-                            <h3><a href="#">Кваст<< /a>/h3>
-                                        <p>Промо-сайт производителя <br>крафтового кваса</p>
-                                        <a href="#">9900 ₽</a>
+                            <h3><a href="#">Кваст</a></h3>
+                            <p>Промо-сайт производителя <br>крафтового кваса</p>
+                            <a href="#">9900 ₽</a>
                         </div>
-                        <img src="https://via.placeholder.com/150x100" alt="Kvast" width="250" height="500">
+                        <img src="img/browser.jpg" alt="Шляпа для шаблона" width="358" height="40">
+                        <img src="img/kvast/Mask Group.jpg" alt="Шаблон Kvast" width="358" height="578">
                     </li>
                 </ul>
             </div>
@@ -128,7 +149,7 @@
         <section>
             <h2>Адрес офиса</h2>
             <!-- Интерактивная карта офиса -->
-            <img src="https://via.placeholder.com/150x100" alt="Адрес офиса Нёрдс" width="150" height="100">
+            <img src="img/map 1.png" alt="Адрес офиса Нёрдс" width="1440" height="416">
 
             <article>
                 <h3>Nerds Design Studio</h3>
@@ -144,9 +165,12 @@
             <h2>Мы в социальных сетях</h2>
             <div class="socials">
                 <ul>
-                    <li><a href=""><img src="https://via.placeholder.com/150x100" alt=""></a></li>
-                    <li><a href=""><img src="https://via.placeholder.com/150x100" alt=""></a></li>
-                    <li><a href=""><img src="https://via.placeholder.com/150x100" alt=""></a></li>
+                    <li><a href=""><img src="img/svg/vk-icon.svg" alt="Переход на страницу ВК" width="81"
+                                height="81"></a></li>
+                    <li><a href=""><img src="img/svg/fb-icon.svg" alt="Переход на страницу Facebook" width="81"
+                                height="81"></a></li>
+                    <li><a href=""><img src="img/svg/insta-icon.svg" alt="Переход на страницу Instagram" width="81"
+                                height="81"></a></li>
                 </ul>
             </div>
             <div>
